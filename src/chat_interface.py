@@ -177,7 +177,7 @@ def main():
     
     # Quick question buttons
     questions = [
-        "💰 If I eran 250K per month, how much tax would I pay",
+        "💰 If I dey earn 250K per month. I go pay tax?",
         "📊 Would I pay tax on my crypto gains?",
         "📝 Do I get rent deductions from tax?",
         "⛽ I own a farm, will I pay tax on profit of the farm?"
@@ -189,7 +189,7 @@ def main():
             if st.button(q, use_container_width=True):
                 # Extract the actual question
                 q_map = {
-                    "💰 If I eran 250K per month, how much tax would I pay": "If I eran 250K per month, how much tax would I pay",
+                    "💰 If I dey earn 250K per month. I go pay tax?": "If I dey earn 250K per month. I go pay tax?",
                     "📊 Would I pay tax on my crypto gains?": "Would I pay tax on my crypto gains?",
                     "📝 Do I get rent deductions from tax?": "Do I get rent deductions from tax?",
                     "⛽ I own a farm, will I pay tax on profit of the farm?": "I own a farm, will I pay tax on profit of the farm?"
